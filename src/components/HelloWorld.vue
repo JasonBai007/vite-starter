@@ -9,7 +9,8 @@
   <button @click="state.count++">count is: {{ state.count }}</button>
   <p>
     Edit
-    <code>components/HelloWorld.vue</code> to test hot module replacement.
+    <code>components/HelloWorld.vue</code> to test hot module replacement.<br>
+    <span>ENV:{{state.mode}}</span>
   </p>
 </template>
 
@@ -20,7 +21,10 @@ defineProps({
   msg: String,
 });
 
-const state = reactive({ count: 0 });
+const state = reactive({
+  count: 0,
+  mode: import.meta.env.MODE, // 环境变量
+});
 </script>
 
 <style scoped lang="scss">
