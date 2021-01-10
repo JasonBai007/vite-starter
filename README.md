@@ -2,8 +2,8 @@
 a vue3.0 template powered by vite.
 
 ## Documentations
-[Vite Documentation](https://vitejs.dev/guide/)
-[Vue 3 Documentation](https://v3.vuejs.org/)
+* [Vite Documentation](https://vitejs.dev/guide/)
+* [Vue 3 Documentation](https://v3.vuejs.org/)
 
 ## How to Use
 ```
