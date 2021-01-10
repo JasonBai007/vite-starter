@@ -1,6 +1,10 @@
 # vite-starter
 a vue3.0 template powered by vite.
 
+## Documentations
+[Vite Documentation](https://vitejs.dev/guide/)
+[Vue 3 Documentation](https://v3.vuejs.org/)
+
 ## How to Use
 ```
 # install dependencies
@@ -17,3 +21,4 @@ yarn build
 1. 支持 Sass，需要安装 sass 模块
 2. 支持自动打开浏览器，配置 sever 模块
 3. 支持配置环境变量
+4. 支持开发环境请求代理
