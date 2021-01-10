@@ -1,4 +1,5 @@
-import axios from "axios";
+// Vite 还不支持
+import axios from "axios"; // https://github.com/vitejs/vite/issues/162
 // import router from "./router";
 
 // 构建请求对象
