@@ -23,11 +23,12 @@ defineProps({
 
 const state = reactive({
   count: 0,
-  mode: import.meta.env.MODE, // 环境变量
+  mode: import.meta.env.MODE, // 获取环境变量
 });
 </script>
 
 <style scoped lang="scss">
+// 支持scss语法，需要提前安装sass模块
 a {
   color: #42b983;
 }
