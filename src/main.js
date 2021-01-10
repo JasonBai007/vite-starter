@@ -1,4 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import http from './http.js'
 
-createApp(App).mount('#app')
+const app = createApp(App);
+app.config.globalProperties.$http = http;
+app.mount('#app');
+
+
