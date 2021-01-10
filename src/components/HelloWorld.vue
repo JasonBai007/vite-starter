@@ -14,17 +14,23 @@
 </template>
 
 <script setup>
-import { defineProps, reactive } from 'vue'
+import { defineProps, reactive } from "vue";
 
 defineProps({
-  msg: String
-})
+  msg: String,
+});
 
-const state = reactive({ count: 0 })
+const state = reactive({ count: 0 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 a {
   color: #42b983;
+}
+p {
+  color: #345293;
+  code {
+    color: blue;
+  }
 }
 </style>
