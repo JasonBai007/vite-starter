@@ -1,9 +1,10 @@
 # vite-starter
-a vue3.0 template powered by vite.
+a vue admin template powered by vite.
 
 ## Documentations
 * [Vite Documentation](https://vitejs.dev/guide/)
-* [Vue 3 Documentation](https://v3.vuejs.org/)
+* [Vue3 Documentation](https://v3.vuejs.org/)
+* [Vue-Router4 Documentation](https://next.router.vuejs.org/guide/)
 
 ## How to Use
 ```
@@ -24,4 +25,5 @@ yarn build
 4. 支持开发环境请求代理
 5. 支持 vue-router 4.x
 6. 支持 echarts 5.0
+7. 支持 axios
 
