@@ -1,9 +1,9 @@
 <template>
   <div class="signin-wrap">
     <div class="inner">
-      <h1>⚡</h1>
-      <h2>Vite Admin</h2>
-      <router-link to="/charts">Get Started</router-link>
+      <h1 class="animate__animated animate__rotateIn">⚡</h1>
+      <h2 class="animate__animated animate__zoomInDown animate__delay-1s">Vite Admin</h2>
+      <router-link to="/charts" class="animate__animated animate__fadeIn animate__delay-2s">Get Started</router-link>
     </div>
   </div>
 </template>

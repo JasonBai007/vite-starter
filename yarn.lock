@@ -104,6 +104,11 @@
   resolved "https://registry.npm.taobao.org/@vue/shared/download/@vue/shared-3.0.5.tgz#c131d88bd6713cc4d93b3bb1372edb1983225ff0"
   integrity sha1-wTHYi9ZxPMTZOzuxNy7bGYMiX/A=
 
+animate.css@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npm.taobao.org/animate.css/download/animate.css-4.1.1.tgz#614ec5a81131d7e4dc362a58143f7406abd68075"
+  integrity sha1-YU7FqBEx1+TcNipYFD90BqvWgHU=
+
 ansi-styles@^3.2.1:
   version "3.2.1"
   resolved "https://registry.npm.taobao.org/ansi-styles/download/ansi-styles-3.2.1.tgz?cache=0&sync_timestamp=1606792302448&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fansi-styles%2Fdownload%2Fansi-styles-3.2.1.tgz#41fbb20243e50b12be0f04b8dedbf07520ce841d"

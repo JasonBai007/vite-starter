@@ -29,9 +29,9 @@ yarn deploy
 5. 支持 vue-router 4.x
 6. 支持 echarts 5.0
 7. 支持 axios
+8. 支持 animate.css
 
 ## TODO
-1. 集成 animate.css
 2. 集成 vuex
 3. 集成 element-ui
 
