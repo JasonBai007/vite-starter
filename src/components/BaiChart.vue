@@ -53,13 +53,14 @@ export default {
   },
   watch: {
     // 深度监听传入的数据变化，一定加deep属性哦
-    chartData: {
-      handler(v, o) {
-        // this.myChartData = v;
-        this.renderChart();
-      },
-      deep: true,
-    }    
+    // 好像不走这儿
+    // chartData: {
+    //   handler(v, o) {
+    //     // this.myChartData = v;
+    //     this.renderChart();
+    //   },
+    //   deep: true,
+    // },
   },
 };
 </script>

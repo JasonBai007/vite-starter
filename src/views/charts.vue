@@ -1,6 +1,6 @@
 <template>
   <div class="charts-wrap">
-    <bai-chart :chartData="chartData"></bai-chart>
+    <bai-chart :chartData="chartData" ref="myChart"></bai-chart>
   </div>
 </template>
 
@@ -29,6 +29,9 @@ export default {
         ],
       },
     };
+  },
+  mounted() {
+    this.$refs.myChart.renderChart();
   },
 };
 </script>
