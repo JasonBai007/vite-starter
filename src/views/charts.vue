@@ -1,5 +1,5 @@
 <template>
-  <div class="charts-wrap">Welcome to Vite World.c</div>
+  <div class="charts-wrap">Welcome to Chart Page.</div>
 </template>
 
 <script>
@@ -8,5 +8,6 @@ export default {
 };
 </script>
 
-<style>
+<style scoped lang="scss">
+
 </style>
