@@ -7,17 +7,25 @@
   </p>
 </template>
 
-<script setup>
+<script>
 import { defineProps, reactive } from "vue";
-
-defineProps({
-  msg: String,
-});
-
-const state = reactive({
-  count: 0,
-  mode: import.meta.env.MODE, // 获取环境变量
-});
+export default {
+  props: ["msg"],
+  setup() {
+    const state = reactive({
+      count: 0,
+      mode: import.meta.env.MODE, // 获取环境变量
+    });
+    return {
+      state,
+    };
+  },
+  created() {
+    this.$http.get("adfad").then((res) => {
+      console.log(res);
+    });
+  },
+};
 </script>
 
 <style scoped lang="scss">
