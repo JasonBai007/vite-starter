@@ -16,6 +16,9 @@ yarn dev
 
 # build for production with minification
 yarn build
+
+# deploy to github
+yarn deploy
 ```
 
 ## Features
