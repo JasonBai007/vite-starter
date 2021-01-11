@@ -27,3 +27,8 @@ yarn build
 6. 支持 echarts 5.0
 7. 支持 axios
 
+## TODO
+1. 集成 animate.css
+2. 集成 vuex
+3. 集成 element-ui
+
