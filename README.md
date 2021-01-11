@@ -32,6 +32,6 @@ yarn deploy
 8. 支持 animate.css
 
 ## TODO
-2. 集成 vuex
-3. 集成 element-ui
+1. 集成 vuex
+2. 集成 element-ui
 
