@@ -29,5 +29,11 @@ export default {
         changeOrigin: true
       }
     }
+  },
+  // Base public path when served in production. Note the path should start and end with /. 
+  build: {
+    base: '/vite-starter/',
+    // 默认是 dist 文件夹，改成 docs 是为了在github上部署
+    outDir: 'docs'
   }
 }
