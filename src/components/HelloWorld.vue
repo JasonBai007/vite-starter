@@ -21,7 +21,8 @@ export default {
     };
   },
   created() {
-    this.$http.get("adfad").then((res) => {
+    // 请求示例
+    this.$http.get("someData").then((res) => {
       console.log(res);
     });
   },

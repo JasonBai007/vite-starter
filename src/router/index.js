@@ -1,7 +1,8 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory, createWebHashHistory } from "vue-router";
 
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(), // hash模式
+    // history: createWebHashHistory(), // history模式
     routes: [
         {
             path: '/',
