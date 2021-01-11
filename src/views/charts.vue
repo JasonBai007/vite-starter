@@ -1,13 +1,36 @@
 <template>
-  <div class="charts-wrap">Welcome to Chart Page.</div>
+  <div class="charts-wrap">
+    <bai-chart :chartData="chartData"></bai-chart>
+  </div>
 </template>
 
 <script>
+import BaiChart from "@/components/BaiChart.vue";
 export default {
   name: "charts",
+  components: {
+    BaiChart,
+  },
+  data() {
+    return {
+      chartData: {
+        xAxis: {
+          type: "category",
+          data: ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+        },
+        yAxis: {
+          type: "value",
+        },
+        series: [
+          {
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: "line",
+          },
+        ],
+      },
+    };
+  },
 };
 </script>
 
-<style scoped lang="scss">
-
-</style>
+<style></style>

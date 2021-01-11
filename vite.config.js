@@ -5,6 +5,7 @@ import path from 'path'
  * @type {import('vite').UserConfig}
  */
 export default {
+  // 路径别名
   alias: {
     '@': path.resolve(__dirname, './src')
   },
@@ -17,7 +18,7 @@ export default {
   // 这部分代码在  depOptimizer.ts 里。
   // 优化依赖
   optimizeDeps: {
-    include: ["axios"]
+    include: ["axios", "echarts"]
   },
   server: {
     open: true, // 启动自动打开浏览器
