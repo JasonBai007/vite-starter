@@ -1,0 +1,8 @@
+/* 改变主题色变量 */
+$--color-primary: #1abc9c;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: "~element-plus/lib/theme-chalk/fonts";
+
+/* 必须这么写，去掉官网上开头的~ */
+@import "element-plus/packages/theme-chalk/src/index";

@@ -21,6 +21,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@popperjs/core@^2.4.4":
+  version "2.6.0"
+  resolved "https://registry.npm.taobao.org/@popperjs/core/download/@popperjs/core-2.6.0.tgz#f022195afdfc942e088ee2101285a1d31c7d727f"
+  integrity sha1-8CIZWv38lC4IjuIQEoWh0xx9cn8=
+
 "@vitejs/plugin-vue@^1.0.4":
   version "1.0.5"
   resolved "https://registry.npm.taobao.org/@vitejs/plugin-vue/download/@vitejs/plugin-vue-1.0.5.tgz#2639178e975bebc505e9be1c88d25faf9bc4dd06"
@@ -124,6 +129,11 @@ anymatch@~3.1.1:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
+async-validator@^3.4.0:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/async-validator/download/async-validator-3.5.1.tgz#cd62b9688b2465f48420e27adb47760ab1b5559f"
+  integrity sha1-zWK5aIskZfSEIOJ620d2CrG1VZ8=
+
 axios@^0.21.1:
   version "0.21.1"
   resolved "https://registry.npm.taobao.org/axios/download/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
@@ -211,6 +221,11 @@ csstype@^2.6.8:
   resolved "https://registry.npm.taobao.org/csstype/download/csstype-2.6.14.tgz?cache=0&sync_timestamp=1610107098407&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcsstype%2Fdownload%2Fcsstype-2.6.14.tgz#004822a4050345b55ad4dcc00be1d9cf2f4296de"
   integrity sha1-AEgipAUDRbVa1NzAC+HZzy9Clt4=
 
+dayjs@1.x:
+  version "1.10.3"
+  resolved "https://registry.npm.taobao.org/dayjs/download/dayjs-1.10.3.tgz?cache=0&sync_timestamp=1610178325502&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdayjs%2Fdownload%2Fdayjs-1.10.3.tgz#cf3357c8e7f508432826371672ebf376cb7d619b"
+  integrity sha1-zzNXyOf1CEMoJjcWcuvzdst9YZs=
+
 echarts@^5.0.0:
   version "5.0.0"
   resolved "https://registry.npm.taobao.org/echarts/download/echarts-5.0.0.tgz?cache=0&sync_timestamp=1606890698849&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fecharts%2Fdownload%2Fecharts-5.0.0.tgz#66ec0ea47e3c93b2aadfbb2d719869932ad13ce0"
@@ -218,6 +233,19 @@ echarts@^5.0.0:
   dependencies:
     tslib "1.10.0"
     zrender "5.0.1"
+
+element-plus@^1.0.1-beta.24:
+  version "1.0.1-beta.24"
+  resolved "https://registry.npm.taobao.org/element-plus/download/element-plus-1.0.1-beta.24.tgz#304b17e23fe1cdc5d90fc0c51dd16b34b237e341"
+  integrity sha1-MEsX4j/hzcXZD8DFHdFrNLI340E=
+  dependencies:
+    "@popperjs/core" "^2.4.4"
+    async-validator "^3.4.0"
+    dayjs "1.x"
+    lodash "^4.17.20"
+    mitt "^2.1.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.1"
 
 emojis-list@^3.0.0:
   version "3.0.0"
@@ -366,7 +394,7 @@ lodash.camelcase@^4.3.0:
   resolved "https://registry.npm.taobao.org/lodash.camelcase/download/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
   integrity sha1-soqmKIorn8ZRA1x3EfZathkDMaY=
 
-lodash@^4.17.19:
+lodash@^4.17.19, lodash@^4.17.20:
   version "4.17.20"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz?cache=0&sync_timestamp=1602337231142&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
@@ -397,6 +425,11 @@ minimist@^1.2.0:
   resolved "https://registry.npm.taobao.org/minimist/download/minimist-1.2.5.tgz?cache=0&sync_timestamp=1602337228360&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fminimist%2Fdownload%2Fminimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
   integrity sha1-Z9ZgFLZqaoqqDAg8X9WN9OTpdgI=
 
+mitt@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/mitt/download/mitt-2.1.0.tgz#f740577c23176c6205b121b2973514eade1b2230"
+  integrity sha1-90BXfCMXbGIFsSGylzUU6t4bIjA=
+
 nanoid@^3.1.20:
   version "3.1.20"
   resolved "https://registry.npm.taobao.org/nanoid/download/nanoid-3.1.20.tgz?cache=0&sync_timestamp=1606835818061&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fnanoid%2Fdownload%2Fnanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
@@ -406,6 +439,11 @@ normalize-path@^3.0.0, normalize-path@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/normalize-path/download/normalize-path-3.0.0.tgz#0dcd69ff23a1c9b11fd0978316644a0388216a65"
   integrity sha1-Dc1p/yOhybEf0JeDFmRKA4ghamU=
+
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/normalize-wheel/download/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
 
 path-parse@^1.0.6:
   version "1.0.6"
@@ -504,6 +542,11 @@ readdirp@~3.5.0:
   integrity sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4=
   dependencies:
     picomatch "^2.2.1"
+
+resize-observer-polyfill@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npm.taobao.org/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
 
 resolve@^1.19.0:
   version "1.19.0"

@@ -18,7 +18,7 @@ export default {
   // 这部分代码在  depOptimizer.ts 里。
   // 优化依赖
   optimizeDeps: {
-    include: ["axios", "echarts"]
+    include: ["axios", "echarts", 'element-plus/lib/locale/lang/zh-cn', 'dayjs/locale/zh-cn']
   },
   server: {
     open: true, // 启动自动打开浏览器

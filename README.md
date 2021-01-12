@@ -30,8 +30,10 @@ yarn deploy
 6. 支持 echarts 5.0
 7. 支持 axios
 8. 支持 animate.css
+9. 支持 element-plus 组件库
+10. 支持 element-plus 汉化
+11. 支持 element-plus 自定义主题色
 
 ## TODO
 1. 集成 vuex
-2. 集成 element-ui
 
