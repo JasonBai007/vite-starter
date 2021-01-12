@@ -34,7 +34,7 @@ yarn deploy
 8. 支持 animate.css
 9. 支持 element-plus 组件库
 10. 支持 element-plus 已汉化
-11. 支持 element-plus 自定义主题色
+11. 暂不支持 element-plus 自定义主题色
 12. 支持 vuex 4.0
 ## Notes
 1. 已安装 sass 模块
