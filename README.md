@@ -5,6 +5,7 @@ a vue admin template powered by vite.
 * [Vite Documentation](https://vitejs.dev/guide/)
 * [Vue3 Documentation](https://v3.vuejs.org/)
 * [Vue-Router4 Documentation](https://next.router.vuejs.org/guide/)
+* [Vuex4 Documentation](https://vuex.vuejs.org/zh/guide/)
 * [Element-Plus Documentation](https://element-plus.org/#/zh-CN/component/installation)
 
 ## How to Use
