@@ -34,10 +34,7 @@ yarn deploy
 9. 支持 element-plus 组件库
 10. 支持 element-plus 已汉化
 11. 支持 element-plus 自定义主题色
-
-## TODO
-1. 集成 vuex
-
+12. 支持 vuex 4.0
 ## Notes
 1. 已安装 sass 模块
 2. docs 文件夹是编译后的静态文件，用来在Github上展示

@@ -13,6 +13,8 @@ import '@/assets/theme/element-variables.scss'
 import 'dayjs/locale/zh-cn'
 import locale from 'element-plus/lib/locale/lang/zh-cn'
 
+// 引入全局状态管理仓库
+import store from "@/store";
 
 import App from './App.vue'
 import router from './router/index.js'
@@ -20,6 +22,6 @@ import http from './http.js'
 
 const app = createApp(App);
 app.config.globalProperties.$http = http;
-app.use(router).use(ElementPlus, { locale }).mount('#app');
+app.use(router).use(store).use(ElementPlus, { locale }).mount('#app');
 
 
