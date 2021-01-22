@@ -1,15 +1,17 @@
 <template>
   <div class="charts-wrap">
     <bai-chart :chartData="chartData" ref="myChart"></bai-chart>
+    <niu-button />
   </div>
 </template>
 
 <script>
 import BaiChart from "@/components/BaiChart.vue";
+import NiuButton from '@/components/NiuButton.vue'
 export default {
   name: "charts",
   components: {
-    BaiChart,
+    BaiChart,NiuButton
   },
   data() {
     return {
