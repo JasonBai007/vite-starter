@@ -16,7 +16,7 @@ export default {
       type: String,
       validator (val) {
         if (val === '') return true
-        return ['medium', 'small', 'mini'].indexOf(val) !== -1
+        return ['large','medium', 'small', 'mini'].indexOf(val) !== -1
       }
     }
   },
@@ -29,8 +29,8 @@ export default {
 }
 const useButtonsize = (size) => {
   return computed(() => {
-    const elFormItem = injdet('elFormItem', {})
-    return size?.value || elFormItem.elFormItemSize
+    const elFormItem = injdet('elFormItem', null)
+    return size?.value || elFormItem?.elFormItemSize
   })
 }
 </script>
